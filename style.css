@@ -1,0 +1,102 @@
+@import url(//db.onlinewebfonts.com/c/f4d1593471d222ddebd973210265762a?family=Pokemon);
+@font-face {font-family: "Pokemon"; src: url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.eot");
+    src: url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.svg#Pokemon") format("svg");
+}
+:root{
+    --mainColor:  rgba(217,98,0,1);
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    user-select: none;
+}
+html{
+    height: 100%;
+
+}
+
+body{
+    background: rgb(142,196,205);
+    background: linear-gradient(120deg, rgba(214,214,214,1), var(--mainColor) );
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:0px;
+    height: 100%;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-weight: 700;
+
+
+}
+h1, h2{
+    font-family: "Pokemon", "Arial Black", Gadget, sans-serif;
+    letter-spacing: 0.1em;
+    font-size: 5vmin;
+    color:  #ffcb05;
+    -webkit-text-stroke: 0.2vmin #2a75bb;
+}
+h2{
+    font-size: 3vmin;
+}
+img {
+    display: block;
+    align-items: center;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+    width: 80%;
+  }
+
+
+#PokeContainer{
+    margin:2vmin;
+    padding: 2vmin;
+    align-content: center;
+    background-color: rgb(230, 231, 224);
+    background: linear-gradient(120deg, var(--mainColor), rgba(214,214,214,1) );
+    width: 50vmin;
+    height: 70vmin;
+    justify-content: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2em;
+
+}
+
+p{
+    font-size: 3vmin;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-weight: 700;
+    color: rgb(238, 238, 238);
+
+}
+
+#PokeName{
+    font-size: 7vmin;
+}
+#form{
+    display: flex;
+}
+#inputID{
+    -webkit-appearance: none;
+    height: 6vmin;
+    border:none;
+    font-size: 2vmin;
+    background-color: rgb(238, 238, 238);
+}
+
+#PokeButton{
+font-size: 4vmin;
+    height: 6vmin;
+    width: 6vmin;
+    border:none;
+
+}

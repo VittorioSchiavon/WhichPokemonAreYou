@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Which Pokemon Are You?</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="//db.onlinewebfonts.com/c/f4d1593471d222ddebd973210265762a?family=Pokemon" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <h1>Which Pokemon Are You?</h1>
+   
+    <h2 id="inputLabel">Tell us your (numberic) Student ID or lucky number:</h2>
+    <div id="form">
+        <input type="number" id="inputID" name="inputID" autocomplete="off">
+        <button id="PokeButton" onclick="getPokemon()">☌</button>
+    </div>
+    <div id="PokeContainer">
+        <img id="PokeImage">
+        <p id="PokeName">???</p>
+        <p id="PokeID">???</p>
+        <p id="PokeType">???</p>
+    </div>
+</body>
+</html>
